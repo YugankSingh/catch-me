@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+  min-height: 100%;
+}
+body {
+	--difficulty: 60px;
+}
+#inner {
+	position: absolute;
+	display: inline-block;
+	height: min(15vw, 15vh);
+	width: min(15vw, 15vh);
+	background-color: plum;
+	text-align: center;
+	font-size: min(4vw, 4vh);
+	font-family: sans-serif;
+}
+#inner:hover {
+	background-color: aquamarine;
+}
+#outer {
+	height: min(15vw, 15vh);
+	width: min(15vw, 15vh);
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	padding: var(--difficulty);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#outer:hover {
+	background-color: aquamarine;
+}
+#won {
+	width: 100%;
+	color: white;
+	display: none;
+	font-family: sans-serif;
+	position: absolute;
+	margin: 0px;
+	word-wrap: break-word;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	display: none;
+	font-size: min(20vw, 20vh);
+}
+#won > p {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+#won > button {
+	font-size: 0.5em;
+	/* padding: 20px; */
+	height: min-content;
+}
+body {
+	transition: all 3s;
+}
