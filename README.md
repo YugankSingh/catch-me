@@ -2,7 +2,7 @@
 
 Simple game in which you have to catch the "catch Me Baby" using your cursor
 
-[Go Play Your-Self](https://yuganksingh.github.io/calculator/)
+[Go Play Your-Self](https://yuganksingh.github.io/catch-me/)
 
 [![example GIF](./example.gif)](https://yuganksingh.github.io/catch-me/)
 
